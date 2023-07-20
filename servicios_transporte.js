@@ -52,7 +52,7 @@ function createTarjeta(data) {
   indexDatos.appendChild(card);
 
   /*--[ ■ Evento del CLick ]--*/
-  card.addEventListener("click", (date) => {
+  card.addEventListener("click", () => {
     container_tarjetaFlotante(data);
   });
 }
@@ -63,6 +63,7 @@ Limpia y eliminar tarjeta al cliquear sobre esta*/
 
 function container_tarjetaFlotante(data) {
 
+  /* [Ocultar - NO Ocultar] */
   contenedorTF.style.visibility = "visible";        /*--[ ■ Fondo Transparente ]--*/
 
   if (data.datos.imagen !== "") {
