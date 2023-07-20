@@ -1,0 +1,295 @@
+[
+    {
+        "orden": 1,
+        "direccion": "/img/Servicios/img-svg/urologia.svg",
+        "nombre": "UROLOGÍA",
+        "datos": {
+            "imagen": "/img/Servicios/imagen-flotante/urologia.png",
+            "informacion": "Es la especialidad médico-quirúrgica que se interesa por el estudio, los tratamientos y las afecciones que afectan al aparato urinario a nivel de los riñones, de los uréteres (que conducen la orina de los riñones hasta la vejiga), de la vejiga y de la uretra que lleva la orina desde la vejiga hasta el exterior del cuerpo. Además, se ocupa del aparato genital del hombre: el urólogo es para los hombres lo que el ginecólogo para las mujeres. Esta especialidad también interviene en el tratamiento de la próstata, incluyendo los adenomas o hiperplasias benignas de la próstata y controlando que no se desarrollen los cánceres. Los médicos especializados en urología se llaman urólogos. Muchas de las enfermedades urológicas se tratan quirúrgicamente"
+        }
+    },
+    {
+        "orden": 60,
+        "direccion": "/img/Servicios/img-svg/anestesiologia.svg",
+        "nombre": "ANESTESIOLOGÍA Y CENTRO QUIRÚRGICO",
+        "datos": {
+            "imagen": "/img/Servicios/imagen-flotante/anestesiologia.png",
+            "informacion": "Es la especialidad médico-quirúrgica que se interesa por el estudio, los tratamientos y las afecciones que afectan al aparato urinario a nivel de los riñones, de los uréteres (que conducen la orina de los riñones hasta la vejiga), de la vejiga y de la uretra que lleva la orina desde la vejiga hasta el exterior del cuerpo. Además, se ocupa del aparato genital del hombre: el urólogo es para los hombres lo que el ginecólogo para las mujeres. Esta especialidad también interviene en el tratamiento de la próstata, incluyendo los adenomas o hiperplasias benignas de la próstata y controlando que no se desarrollen los cánceres. Los médicos especializados en urología se llaman urólogos. Muchas de las enfermedades urológicas se tratan quirúrgicamente"
+        }
+    },
+    {
+        "orden": 3,
+        "direccion": "/img/Servicios/img-svg/traumatologia.svg",
+        "nombre": "TRAUMATOLOGÍA",
+        "datos": {
+            "imagen": "/img/Servicios/imagen-flotante/traumatologia.png",
+            "informacion": "Es la rama de la medicina que se especializa en los traumatismos y en sus consecuencias. Los expertos en traumatología, conocidos como traumatólogos, estudian las lesiones que se producen en el aparato locomotor."
+        }
+    },
+    {
+        "orden": 4,
+        "direccion": "/img/Servicios/img-svg/emergencias.svg",
+        "nombre": "EMERGENCIA Y CUIDADOS INTENSIVOS",
+        "datos": {
+            "imagen": "/img/Servicios/imagen-flotante/emergencia.png",
+            "informacion": "Una emergencia es una situación crítica de peligro evidente para la vida del paciente y que requiere una actuación inmediata, y cuidados críticos es cuando el paciente pasa a cuidados más exhaustivos y minuciosos. "
+        }
+    },
+    {
+        "orden": 5,
+        "direccion": "/img/Servicios/img-svg/pediatria.svg",
+        "nombre": "PEDIATRÍA",
+        "datos": {
+            "imagen": "/img/Servicios/imagen-flotante/pediatria.png",
+            "informacion": "Es la rama de la medicina que se especializa en la salud y las enfermedades de los niños. Se trata de una especialidad médica que se centra en los pacientes desde el momento del nacimiento hasta la adolescencia, sin que exista un límite preciso que determine el final de su validez."
+        }
+    },
+    {
+        "orden": 6,
+        "direccion": "/img/Servicios/img-svg/endocrinologia.svg",
+        "nombre": "ENDOCRINOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica dedicada al estudio de las hormonas fabricadas por el organismo. Las hormonas son secretadas por diversas glándulas y participan en el funcionamiento adecuado del cuerpo, a través del transporte a través de la corriente sanguínea. La Endocrinología permite comprobar el correcto funcionamiento de estos sistemas de regulación, la cantidad de estas hormonas y tratar cualquier enfermedad relacionada con un desarreglo hormonal."
+        }
+    },
+    {
+        "orden": 7,
+        "direccion": "/img/Servicios/img-svg/ecografia.svg",
+        "nombre": "ECOGRAFÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "También denominada ecosonografía o ultrasonografía es una técnica de diagnóstico de imagen que permite ver órganos y estructuras blandas del cuerpo, por medio de ondas sonoras que son emitidas a través de un transductor el cual capta el eco de diferentes amplitudes que generan al rebotar en los diversos órganos y estas señales procesadas por un computador dan como resultado imágenes de los tejidos examinados."
+        }
+    },
+    {
+        "orden": 8,
+        "direccion": "/img/Servicios/img-svg/obstetricia.svg",
+        "nombre": "OBSTETRICIA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la rama de la medicina que cuida la gestación, el parto y el puerperio (el período que abarca desde el parto hasta que la mujer vuelve al estado que tenía antes de la gestación)."
+        }
+    },
+    {
+        "orden": 9,
+        "direccion": "/img/Servicios/img-svg/topico.svg",
+        "nombre": "TÓPICO",
+        "datos": {
+            "imagen": "",
+            "informacion": "Un tópico es un consultorio externo de asistencia inmediata de atención de salud, donde se administra medicamentos, se realiza procedimientos médicos, actividades de promoción de la salud, consejería al paciente y familia entre otros. "
+        }
+    },
+    {
+        "orden": 10,
+        "direccion": "/img/Servicios/img-svg/dermatologia.svg",
+        "nombre": "DERMATOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es una especialidad médica que se ocupa de los cuidados de la piel, las mucosas, las uñas, el pelo y el cabello. Los dermatólogos disminuyen los dolores y los picores provocados por lesiones dermatológicas, los problemas de sudoración, y también las enfermedades de transmisión sexual. Los tratamientos dermatológicos pueden ser locales, en forma de cremas o de antisépticos, antibióticos y a veces quirúrgicos. Los problemas que trata la dermatología son muy numerosos. "
+        }
+    },
+    {
+        "orden": 11,
+        "direccion": "/img/Servicios/img-svg/ginecologia.svg",
+        "nombre": "GINECOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Se encarga del estudio, diagnóstico y tratamiento de las enfermedades de la mujer, englobando todos los aspectos de la salud femenina. "
+        }
+    },
+    {
+        "orden": 12,
+        "direccion": "/img/Servicios/img-svg/resonancia_magnetica.svg",
+        "nombre": "RESONANCIA MAGNÉTICA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Consiste en la obtención de imágenes radiológicas de la zona anatómica que se desea estudiar mediante el empleo de un campo electromagnético (imán), un emisor/receptor de ondas de radio (escáner) y un ordenador."
+        }
+    },
+    {
+        "orden": 13,
+        "direccion": "/img/Servicios/img-svg/cardiologia.svg",
+        "nombre": "CARDIOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialización de la medicina centrada en el análisis del corazón. Los cardiólogos, por lo tanto, pueden realizar diagnósticos e indicar tratamientos vinculados a trastornos de este órgano. "
+        }
+    },
+    {
+        "orden": 14,
+        "direccion": "/img/Servicios/img-svg/cirujia_general.svg",
+        "nombre": "CIRUGÍA GENERAL",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica de clase quirúrgica que abarca las operaciones del aparato digestivo; incluyendo el tracto gastrointestinal y el sistema hepato-bilio-pancreático, el sistema endocrino; incluyendo las glándulas suprarrenales, tiroides, paratiroides, mama y otras glándulas incluidas en el aparato digestivo. Asimismo, incluye la reparación de hernias y eventraciones de la pared abdominal. En estas áreas de la cirugía no se precisa un especialista, aunque el cirujano general puede especializarse en alguna de ellas. "
+        }
+    },
+    {
+        "orden": 15,
+        "direccion": "/img/Servicios/img-svg/radiologia.svg",
+        "nombre": "RADIOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica, odontológica y podológica que se ocupa de generar imágenes del interior del cuerpo mediante diferentes agentes físicos (rayos X, ultrasonidos, campos magnéticos, entre otros) y de utilizar estas imágenes para el diagnóstico y, en menor medida, para el pronóstico y el tratamiento de las enfermedades. También se le denomina genéricamente radiodiagnóstico o diagnóstico por imagen."
+        }
+    },
+
+    {
+        "orden": 16,
+        "direccion": "/img/Servicios/img-svg/nefrologia.svg",
+        "nombre": "NEFROLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica que estudia la anatomía de los riñones y sus funciones. Tiene como campo la prevención, el diagnóstico y el tratamiento de las enfermedades del riñón y sus consecuencias."
+        }
+    }
+    
+    ,
+
+    {
+        "orden": 17,
+        "direccion": "/img/Servicios/img-svg/ambulancia.svg",
+        "nombre": "TRANSPORTE DE AMBULANCIA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es el traslado de heridos o enfermos que no pueden movilizarse por sus propios medios y que normalmente demandan una atención rápida a un centro de sanidad."
+        }
+    }
+    ,
+
+    {
+        "orden": 18,
+        "direccion": "/img/Servicios/img-svg/cirujia_especializada.svg",
+        "nombre": "CIRUGÍA ESPECIALIZADA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica especializada de clase quirúrgica que abarca las operaciones; especializadas en órganos del cuerpo humano que requieran de intervención quirúrgica."
+        }
+    }
+    ,
+
+    {
+        "orden": 19,
+        "direccion": "/img/Servicios/img-svg/otorrinolaringologia.svg",
+        "nombre": "OTORRINO LARINGOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica que se encarga del estudio tanto médico como quirúrgico, de las enfermedades del oído, las vías respiratorias superiores y parte de las inferiores, incluyendo nariz, senos paranasales, faringe y laringe. La cirugía traumatológica, oncológica, plástica, estética y reparadora de la cara y el cuello también se incluyen en el ámbito de esta especialidad médica. Sin embargo, la patología quirúrgica de los dientes, encías, lengua, glándulas salivales, senos maxilares, mandíbula y maxilar, corresponde al cirujano maxilofacial,1 si bien en algunas ocasiones sus competencias específicas se superponen."
+        }
+    }
+    ,
+
+    {
+        "orden": 20,
+        "direccion": "/img/Servicios/img-svg/psicologia.svg",
+        "nombre": "PSICOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la ciencia que se ocupa tanto teórica, como prácticamente, al estudio de los aspectos biológicos, sociales y culturales del comportamiento humano, tanto a nivel social como individual, así como también del funcionamiento y desarrollo de la mente humana."
+        }
+    }
+    ,
+
+    {
+        "orden": 21,
+        "direccion": "/img/Servicios/img-svg/cirujia_oncologica.svg",
+        "nombre": "CIRUGÍA ONCOLÓGICA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es el tratamiento más antiguo para el cáncer, y el único disponible hasta principios del siglo XX. La cirugía oncológica es una técnica efectiva para curar a aquellos pacientes cuyos tumores estén localizado."
+        }
+    }
+    ,
+
+    {
+        "orden": 22,
+        "direccion": "/img/Servicios/img-svg/oftalmologia.svg",
+        "nombre": "OFTALMOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica que se encarga del tratamiento de las enfermedades de los ojos. Esta disciplina también tiene aplicación en la veterinaria ya que los seres humanos y los animales suelen compartir, en este caso, procesos patológicos similares."
+        }
+    }
+    ,
+
+    {
+        "orden": 23,
+        "direccion": "/img/Servicios/img-svg/nutricion.svg",
+        "nombre": "NUTRICIÓN",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es el proceso biológico en el que se proporciona a los organismos animales y vegetales los nutrientes necesarios para la vida, para el funcionamiento, el mantenimiento y el crecimiento de sus funciones vitales, manteniendo el equilibrio homeostático del organismo, tanto en procesos macrosistémicos (digestión, metabolismo) como en procesos moleculares (aminoácidos, enzimas, vitaminas, minerales), que son procesos fisiológicos y bioquímicos. En estos procesos se consume y se gasta energía (calorías). También es la ciencia que investiga la relación entre los alimentos consumidos por el hombre y la salud (enfermedades), buscando el bienestar y la preservación de la salud humana."
+        }
+    }
+    ,
+
+    {
+        "orden": 24,
+        "direccion": "/img/Servicios/img-svg/rehabilitacion.svg",
+        "nombre": "MEDICINA FÍSICA Y REHABILITACIÓN",
+        "datos": {
+            "imagen": "",
+            "informacion": "También conocida como Fisiatría, se encarga del diagnóstico, prevención y tratamiento de los pacientes con limitaciones funcionales agudas o crónicas, que se presentan como resultado de enfermedades o lesiones. El objetivo de manejo por esta especialidad médica es restaurar la función óptima de los pacientes, según lo permita cada enfermedad y su severidad."
+        }
+    }
+    ,
+
+    {
+        "orden": 25,
+        "direccion": "/img/Servicios/img-svg/odontologia.svg",
+        "nombre": "ODONTOLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la especialidad médica que se encarga de estudiar, tratar y prevenir las enfermedades típicas que padecen nuestros dientes, entre las más corrientes: la caries, la gingivitis o inflamación de las encías."
+        }
+    }
+    ,
+
+    {
+        "orden": 26,
+        "direccion": "/img/Servicios/img-svg/laboratorio_clinico.svg",
+        "nombre": "LABORATORIO CLÍNICO",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es el lugar donde un equipo multidisciplinario formado por el médico patólogo clínico o analista clínico, los profesionales del laboratorio y los técnicos en análisis clínicos, analizan muestras biológicas humanas que contribuyen al estudio, prevención, diagnóstico y tratamiento de las enfermedades. También se conoce como laboratorio de patología clínica y utiliza las metodologías de diversas disciplinas como la bioquímica- también llamada química clínica - hematología, inmunología y microbiología. En el laboratorio clínico se obtienen y se estudian muestras biológicas diversas, como sangre, orina, heces, líquido sinovial (articulaciones), líquido cefalorraquídeo, exudados faríngeos y vaginales, entre otros tipos de muestras."
+        }
+    }
+    ,
+
+    {
+        "orden": 27,
+        "direccion": "/img/Servicios/img-svg/medicina_interna.svg",
+        "nombre": "MEDICINA INTERNA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es una especialidad médica que se dedica al estudio, diagnóstico y tratamiento de las enfermedades propias del adulto."
+        }
+    }
+    ,
+
+    {
+        "orden": 28,
+        "direccion": "/img/Servicios/img-svg/neurologia.svg",
+        "nombre": "NEUROLOGÍA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Se conoce como neurología a la especialidad médica que se ocupa del estudio, el diagnóstico, el tratamiento y la rehabilitación de aquellos trastornos que afectan al sistema nervioso central."
+        }
+    }
+    ,
+
+    {
+        "orden": 29,
+        "direccion": "/img/Servicios/img-svg/anatomia_patologica.svg",
+        "nombre": "ANATOMÍA PATOLÓGICA",
+        "datos": {
+            "imagen": "",
+            "informacion": "Es la rama de la medicina que se ocupa del estudio, por medio de técnicas morfológicas, de las causas, desarrollo y consecuencias de las enfermedades. El fin último es el diagnóstico correcto de las biopsias, piezas quirúrgicas, citología y autopsias."
+        }
+    }
+   
+
+   
+    
+]

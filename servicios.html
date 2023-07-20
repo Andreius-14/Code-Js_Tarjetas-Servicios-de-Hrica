@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./css/loader.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <title>Hospital Regional - Servicios</title>
+
+    <link rel="stylesheet" href="./css/body_institucional.css">
+    <!--[■ Estilos de la pagina ]-->
+    <link rel="stylesheet" href="./css/servicios_tarjetas.css">
+
+    <!--[■ Especial para llamar nav y footer jquery ]-->
+    <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
+    <!-- Favicon  -->
+    <!-- <link rel="icon" href="../../img/favicon.png"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<!--Para la Pagina Siguiente: Empleamos Cargadores de elementos y Etiquetas Basias donde 
+se situaran las Tarjetas insertadas por javascript con un Json-->
+
+    <!-- <script src="../../js/loader.js"></script> -->
+
+    <div id="Navegador_menu"> </div>
+
+    <div class="contenidos_del_slider">
+        <div class="centro">
+            <div class="titulo_directores">
+                <h2>Servicios</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor_tarjetas_distritos">
+        <!--[■ Se inserta Tarjetas por Js  obtiene los datos de un Jason datos_tarjetas_areas.json
+            Los estilos son enlazados al html y tienen su propio archivo tarjetas.css ]-->
+    </div>
+
+    <div class="container_Flotante">
+        <div id="evento_tarjeta_Flotante">
+            <!--[■ Aqui se Inserta la Imagen Flotante en la cual Aparecera al hacerse click en las Tarjetas ]-->
+        </div>
+    </div>
+
+    <!-- Custom scripts -->
+    <div id="footer_pie"></div>
+
+    <!--[■ Js de Transporte ]-->
+    <script src="servicios_transporte.js" defer>
+    </script>
+
+    <script>
+        $('#Navegador_menu').load('../componentes/Menu.html');
+        $('#footer_pie').load('../componentes/footer.html');
+    </script>
+    <!-- <script src="../../js/loader_esconder.js"></script> -->
+
+</body>
+
+</html>

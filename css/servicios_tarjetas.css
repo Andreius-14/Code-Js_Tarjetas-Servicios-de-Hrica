@@ -1,0 +1,293 @@
+/*  -- Distribuidor donde se situara las tarjetas Flexboxs
+    -- Estilo de la tarjeta el cual se repetina n veces las areas en el Json
+    -- Efecto de seleccion
+*/
+.contenedor_tarjetas_distritos{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+
+    gap: 20px;
+    width: auto;
+    height: cal(auto+20px);
+
+    justify-content: space-evenly;
+
+    padding: 50px 5px 50px 5px;
+    
+overflow: hidden;
+    margin-top: auto;
+    
+}
+.card{
+
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4em !important;   
+background: #fff;
+
+box-shadow:  -5px 5px 10px #cecece,
+             5px -5px 10px #f2f2f2;
+
+}
+
+.card:hover {
+    box-shadow:  -5px 5px 10px #cecece,
+             5px -5px 10px #f2f2f2,
+             -5px 5px 10px #cecece,
+             5px -5px 10px #f2f2f2,  -5px 5px 10px #cecece,
+             5px -5px 10px #f2f2f2;
+
+    cursor: pointer;
+}
+
+
+/*  --Distribucion de los elementos dentro de cada tarjeta Orientacion - Tamaño - proporcion
+    --El mediaQuery para efectos en pantallas moviles   
+*/
+.nombreContenedor{
+    font-family: 'Rubik', sans-serif;
+    
+    font-size: 1.3em;
+    color: #071041;
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+
+.svgContenedor{
+    width:auto;
+    height: 60%;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.svgContenedor_img{
+   width: auto;height: 100%;
+   filter: invert(16%) sepia(24%) saturate(6152%) hue-rotate(251deg) brightness(94%) contrast(99%);
+}
+
+
+
+@media screen and (max-width:900px) {
+    
+    .card{
+        max-width: 160px;
+        max-height: 160px;
+
+        border-radius: 20% !important;
+
+    gap: 10px;
+        
+    }
+    .svgContenedor{
+        padding: 0px;
+    }
+    
+
+    .nombreContenedor{
+        font-size: .9em;
+        text-align: center;
+    }
+
+
+    
+
+}
+/*--[ ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ ]--*/
+
+/*  --Estilo del contenedor y la tarjeta Ambas siendo flotantes
+    -- Distribucion de elementos De TarjetaFlotante Flexbos
+*/
+
+.container_Flotante{
+/*    
+   visibility: visible;  */
+     overflow-y: scroll;
+  
+   
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+/*--[ ------------------ ]--*/
+    /* background: rgba(214, 17, 17, 0.3); */
+    background: rgba(66 , 62, 55, 0.7);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+/*--[ ------------------------ ]--*/
+
+
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+
+
+}
+/* 
+.container_Flotante:active{
+    visibility:hidden;
+} */
+
+.evento_tarjeta_Flotante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5em;
+
+    /* overflow:hidden; */
+
+    border-radius: 50px;
+    
+    max-width: 450px;
+    height:auto;
+
+
+    /*--[ ------------- ]--*/
+    background: rgba(127, 67, 178, 1);
+box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+/*Elemento internos de la tarjeta Flotante
+    --Contenedor de Imagen
+    --Contenedor del Svg
+    --Contenedor Texto
+*/
+
+.tj_ImagenContenedor{
+width: 100%;
+height:auto;
+position: relative;
+}
+
+.tj_Imagen{
+  width: 100%;
+  height: auto;
+}
+
+.tj_svgContenedor{
+overflow:hidden;
+
+    position: absolute;
+     top:  100%;
+    left: 65%; 
+
+    transform: translate(-10%, -50%);
+
+    max-width:120px;
+    height:25vh;
+    max-height:120px;
+    align-self: end;
+
+    /* margin-right: 1em; */
+
+    display:flex;           
+    justify-content:center; 
+    align-items:center;     
+    
+   background-color: rgba(71, 33, 127, 1);
+
+    /*--[ ----------- ]--*/
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.467);
+    backdrop-filter: blur( 5px ); 
+
+    border-radius: 100px;
+}
+
+
+
+.tj_svgContenedor_img{
+    width: 70%;
+    
+    filter: invert(100%) sepia(83%) saturate(0%) hue-rotate(78deg) brightness(110%) contrast(101%);
+
+ 
+}
+
+.tfTexto{
+    
+    color: #fff;
+    align-self: start;
+    margin-right: 3rem;
+    margin-left:3rem;
+    font-family: 'Rubik', sans-serif;
+    
+    
+    
+}
+
+/*Estilo del Texto de Tarjeta Flotante
+    --Titulo
+    --Parrafo
+*/
+
+.tj_tarjeta_nombreContenedor{
+    margin-left: 3.5rem;
+    padding-right: 4em;
+
+    font-size: 24px;
+
+    margin-bottom: 0;
+    
+   
+
+}
+
+.tj_InformacionContenedor{
+    margin-top: 4px;
+    margin-bottom: 2.5em;
+    font-family: 'Rubik', sans-serif;
+    text-align:justify;
+
+    font-size: 14px;
+    line-height: 22px;
+    
+
+}
+
+@media screen and (max-width:500px) {
+    .tfTexto{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .tj_tarjeta_nombreContenedor{
+padding-right: 4em;
+    }
+    .nombreContenedor{
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: #071041;
+        margin-bottom: 0;
+        line-height: 1;
+        text-align: center;
+    }
+    
+}
+/*--[ ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ ]--*/
+
+.contenidos_del_slider{
+    margin-top: 90px;
+}
+
